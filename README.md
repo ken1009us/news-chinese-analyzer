@@ -17,4 +17,3 @@ pip install requests
 pip install bs4
 pip install matplotlib
 ```
-# News_Chinese_Analyzer

@@ -1,14 +1,14 @@
 import requests
-from bs4 import BeautifulSoup
 import jieba
-from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt 
 
+
+from bs4 import BeautifulSoup
+from matplotlib.font_manager import FontProperties
 from matplotlib.font_manager import _rebuild
 _rebuild()
 
 plt.rcParams['font.sans-serif'] = 'SimHei'
-
 
 header={
         'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36'
